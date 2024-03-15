@@ -1,6 +1,6 @@
 # Balm（万金油-大数据PAAS组件适配器）
-## 一键集成各种常用的大数据PAAS组件
-* [Dolphinscheduler](https://github.com/apache/dolphinscheduler)（1.3.x）
+## 基于Spring Boot打造，一键集成各种常用的大数据PAAS组件，简化对接成本，提升应用开发效率
+* [DolphinScheduler](https://github.com/apache/dolphinscheduler)（1.3.x）
 * [Hadoop](https://github.com/apache/hadoop)（2.x/3.x）
 * [Spark](https://github.com/apache/spark)（2.x/3.x）
 * [Hive](https://github.com/apache/hive)（2.x/3.x）
@@ -9,12 +9,14 @@
 * Kafka（敬请期待）
 * StarRocks（敬请期待）
 * ClickHouse（敬请期待）
+* Presto（敬请期待）
+* DataX（敬请期待）
 * Neo4j（敬请期待）
 * Aliyun OSS（敬请期待）
 * Aliyun ODPS/MaxCompute（敬请期待）
 * More+
 
-## 提供标准的RESTFul操作接口
+## 提供标准的RESTFul操作接口，屏蔽底层架构的差异性，让数据的读/写更简单
 ### Dolphinscheudler（分布式任务调度组件）
 * 环境自检相关接口
   + Dolphinscheduler组件运行环境自检
@@ -88,5 +90,8 @@
   + SparkSQL自定义数据分析
 
 ## 快速部署
-* 免费提供安装包及接口使用文档
-* Wechat：xxx-hx-xxx
+* Swagger-ui地址：http://ip:11011/balm
+* 部署手册、接口使用文档、二次开发指南请联系
+* Wechat：xxx-hx-xxx（潇湘夜雨）
+* Email：hexing_xx@163.com
+* 欢迎通过[Issues](https://github.com/starhe/balm/issues)或以上联系方式提交问题或者建议
