@@ -91,7 +91,7 @@
 
 ## 快速部署
 * Swagger-ui地址：http://ip:11011/balm
-* 部署手册、接口使用文档、二次开发指南请联系
-* Wechat：xxx-hx-xxx（潇湘夜雨）
+* 部署手册、接口使用文档、二次开发指南请联系↓↓↓
+* WeChat：xxx-hx-xxx（潇湘夜雨）
 * Email：hexing_xx@163.com
 * 欢迎通过[Issues](https://github.com/starhe/balm/issues)或以上联系方式提交问题或者建议
