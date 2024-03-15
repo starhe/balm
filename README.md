@@ -90,7 +90,9 @@
   + SparkSQL自定义数据分析
 
 ## 快速部署
-* Swagger-ui地址：http://ip:11011/balm
+* 点击下载[balm-2024.03.15.jar](https://github.com/starhe/balm/releases/download/balm-2024.03.15/balm-2024.03.15.jar)
+* 上传服务器，一键启动：nohup java -jar balm-2024.03.15.jar > balm.log 2>&1 &
+* Swagger-ui地址：http://host:11011/balm
 * 部署手册、接口使用文档、二次开发指南请联系↓↓↓
 * WeChat：xxx-hx-xxx（潇湘夜雨）
 * Email：hexing_xx@163.com
