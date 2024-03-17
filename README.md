@@ -17,9 +17,9 @@
 * More+
 
 ## 提供标准的RESTFul操作接口，屏蔽底层架构的差异性，让数据的读/写更简单
-### Dolphinscheudler（分布式任务调度组件）
+### DolphinScheudler（分布式任务调度组件）
 * 环境自检相关接口
-  + Dolphinscheduler组件运行环境自检
+  + DolphinScheduler组件运行环境自检
 * 任务管理相关接口
   + 任务创建
   + 任务列表查询
@@ -90,10 +90,13 @@
   + SparkSQL自定义数据分析
 
 ## 快速部署
-* 点击下载[balm-2024.03.15.jar](https://github.com/starhe/balm/releases/download/balm-2024.03.15/balm-2024.03.15.jar)
+* 最新版点击下载[balm-2024.03.15.jar](https://github.com/starhe/balm/releases/download/balm-2024.03.15/balm-2024.03.15.jar)
+* 根据需要对接组件的实际部署情况，按需修改application.yml
 * 上传服务器，一键启动：nohup java -jar balm-2024.03.15.jar > balm.log 2>&1 &
 * Swagger-ui地址：http://host:11011/balm
-* 部署手册、接口使用文档、二次开发指南请联系↓↓↓
+
+## 问题反馈
+* 详细部署手册、接口使用文档、二次开发指南请联系↓↓↓
 * WeChat：xxx-hx-xxx（潇湘夜雨）
 * Email：hexing_xx@163.com
 * 欢迎通过[Issues](https://github.com/starhe/balm/issues)或以上联系方式提交问题或者建议
